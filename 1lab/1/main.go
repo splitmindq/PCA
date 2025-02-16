@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"go.bug.st/serial"
 	"log"
+	"time"
 )
 
 func main() {
@@ -36,6 +37,8 @@ func main() {
 		log.Fatal("Write did not write enough bytes")
 	}
 	fmt.Printf("Отправлено сообщение |%s| длинною |%d| байт", message, n)
+
+	time.Sleep(100 * time.Millisecond)
 
 	buffer := make([]byte, 1024)
 	n, err = secondPort.Read(buffer)
