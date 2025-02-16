@@ -6,9 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-../go.mod
-../go.sum
-../.idea
-/../go.mod/
-/../go.sum/
-/../.idea/
+1lab/1/go.mod
+1lab/1/go.sum
+/.idea
