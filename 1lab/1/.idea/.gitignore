@@ -9,3 +9,6 @@
 ../go.mod
 ../go.sum
 ../.idea
+/../go.mod/
+/../go.sum/
+/../.idea/
